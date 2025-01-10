@@ -1,0 +1,7 @@
+The solution involves ensuring all values within the `calc()` function have consistent units and that the mathematical operations are correctly parenthesized.  For example, if you want to subtract 20 pixels from 100%, correctly write `width: calc(100% - 20px);`. If you are using nested `calc()` functions, make sure to correctly parenthesize each expression to ensure the correct order of operations.
+
+```css
+/* Correct usage */
+width: calc(100% - 20px);
+height: calc(50% + (100px/2));
+```
